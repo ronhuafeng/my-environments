@@ -12,3 +12,11 @@ Install [Alacarte](apt:alacarte)
 - /etc/gnome/defaults.list文件
 
 -----
+＃ proftpd 无法启动
+
+检查配置
+
+May be you have error in your proftpd config file. You have to perform configuration check. The easiest way to do informative syntax check as is stated here is to run:
+`proftpd -td10`
+or you can run (less noise):
+`proftpd -td5`
