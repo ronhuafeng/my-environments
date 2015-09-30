@@ -50,7 +50,22 @@ sh /etc/rc.local
 ```
 # Ingress
 使用 wiresharks 进行抓包，不用 root 权限：` sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/dumpcap`
+非特权用户抓包 
+- [tutorial](http://packetlife.net/blog/2010/mar/19/sniffing-wireshark-non-root-user/)
+- [tutorial](https://blog.wireshark.org/2010/02/running-wireshark-as-you/)
+- [tutorial](http://superuser.com/questions/319865/how-to-set-up-wireshark-to-run-without-root-on-debian)
+```shell
 
+# one way
+$ sudo -s
+# groupadd -g wireshark
+# usermod -a -G wireshark gerald
+# chgrp wireshark /usr/bin/dumpcap
+# chmod 4750 /usr/bin/dumpcap
+
+# add a user to a group
+sudo usermod -a -G groupName userName
+```
 ---
 
 # iptables
