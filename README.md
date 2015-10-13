@@ -78,3 +78,18 @@ sudo iptables -t nat -A POSTROUTING -d 103.7.200.79 -j MASQUERADE
 # iptables
 看了一些文章，大体了解了其工作流程
 - view input chain: `iptables -nvx -L INPUT`
+- 
+
+# Atom Editor
+文本显示：中文乱码
+可以修改 style.css
+Atom China 网站上有个解决方案：[Linux 下中文显示成方块的解决方案](http://atom-china.org/t/linux/85)
+另外 markdown preview 显示乱码，可以添加：
+```css
+.markdown-preview {
+  font-family: @mono-font-family;
+  atom-text-editor::shadow *{
+    font-family: @mono-font-family;
+  }
+}
+```
