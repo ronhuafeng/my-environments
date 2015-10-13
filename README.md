@@ -66,8 +66,15 @@ $ sudo -s
 # add a user to a group
 sudo usermod -a -G groupName userName
 ```
+iptables 添加路由
+```shell
+sudo iptables -t nat -A PREROUTING -d 173.194.72.84  -j DNAT --to-destination 103.7.200.79
+sudo iptables -t nat -A POSTROUTING -d 103.7.200.79 -j MASQUERADE
+```
+
+这个问题没有解决，另外除了收到 retransmission 包，还碰到了 GFW 的蜜罐 IP，有趣。
 ---
 
 # iptables
+看了一些文章，大体了解了其工作流程
 - view input chain: `iptables -nvx -L INPUT`
-- 
