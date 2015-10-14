@@ -94,3 +94,7 @@ Atom China 网站上有个解决方案：[Linux 下中文显示成方块的解�
 }
 ```
 以及 [Atom 在Ubuntu 中文显示乱码（方块）解决方法](http://tikitoo.me/2015/07/23/ubuntu-atom-zh-display-squre/)
+
+# Pandoc
+- Convert markdown files to pdfs: `pandoc test.md  --latex-engine=xelatex -o hw03.pdf --template=pm-template.latex`
+   其中 [pm-template.latex](https://gist.github.com/ceclinux/9116293) 是一个生成模板，如果要修改生成 pdf 中的字体、代码格式等，就要对这个模板进行修改。
