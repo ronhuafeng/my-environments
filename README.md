@@ -102,6 +102,7 @@ Atom China 网站上有个解决方案：[Linux 下中文显示成方块的解�
 # [Emacs Clojure](https://github.com/clojure-emacs)
 - 使用 [CIDER](https://github.com/clojure-emacs/cider)，*project.clj* 添加 `:profiles {:dev {:plugins [[cider/cider-nrepl "0.10.0-SNAPSHOT"]]}}`，然后 `M+x cider-jack-in` 开启 nrepl 。使用 boot 貌似不用在每个项目中进行配置，不过还没有尝试。
 - [详细的 CIDER 使用教程，运行，测试](http://clojure-doc.org/articles/tutorials/emacs.html)
+- smartparens / rainbow-deli... 等插件
 
 一些快捷键
 
