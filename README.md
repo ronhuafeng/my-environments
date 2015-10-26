@@ -114,3 +114,8 @@ Atom China 网站上有个解决方案：[Linux 下中文显示成方块的解�
 6. C-c C-d 可以用来查看函数的doc。
 7. M-. 可以查看函数的源代码。
 8. M-, 用来查看第三方库
+
+---
+
+Tricks:
+1. In Ubuntu, `ctrl + ;` will call out a paste buffer (I guess), 5 items in copy-history will show up. 
