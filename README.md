@@ -12,6 +12,19 @@ Install [Alacarte](apt:alacarte)
 - /etc/gnome/defaults.list文件
 
 -----
+
+# Latex minted
+
+Latex 代码高亮的一个解决方案
+
+Ref: http://tex.stackexchange.com/questions/40083/how-to-install-minted-in-ubuntu
+```shell
+sudo apt-get install texlive-latex-extra 
+sudo apt-get install python-pygments
+pdflatex -shell-escape myfile.tex
+```
+
+
 ＃ proftpd 无法启动
 
 检查配置
