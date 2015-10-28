@@ -24,8 +24,7 @@ sudo apt-get install python-pygments
 pdflatex -shell-escape myfile.tex
 ```
 
-
-＃ proftpd 无法启动
+# proftpd 无法启动
 
 检查配置
 
