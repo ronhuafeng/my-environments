@@ -44,7 +44,7 @@
       document.getElementById("redeem_reward_form").submit.click();
       count++;
       
-      setTimeout(submitPasscode, 10000 + Math.floor((Math.random() * 5000) + 1)); 
+      setTimeout(submitPasscode, 25000 + Math.floor((Math.random() * 25000) + 1)); 
     }; 
     submitPasscode();
   };
