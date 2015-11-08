@@ -13,6 +13,14 @@ Install [Alacarte](apt:alacarte)
 
 -----
 
+# Git SSH
+
+无密码推送，使用 SSH
+1. 按照 [GitHub 教程](https://help.github.com/categories/ssh/)设置 SSH
+2. 将 repo 转为 SSH repo `git remote set-url origin git@github.com:<Username>/<Project>.git`
+
+---
+
 # Latex minted
 
 Latex 代码高亮的一个解决方案
