@@ -143,6 +143,9 @@ SSH keys 目录权限
 .ssh 700
 authorized_keys 600
 
+用户/组相关操作
+[linux下添加，删除，修改，查看用户和用户组](http://blog.51yip.com/linux/1137.html)
+
 新建用户
 
 `useradd -d /home/xxx xxx`
@@ -151,6 +154,7 @@ authorized_keys 600
 
 `chown -R xxx:users /home/xxx`
 
+Linux Tab键命令补全失效解决办法，查看 /etc/passwd 文件，改为 `xxx:x:1001:1001::/home/xxx:/bin/bash` 
 ---
 
 Tricks:
