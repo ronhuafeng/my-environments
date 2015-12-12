@@ -134,6 +134,22 @@ Atom China 网站上有个解决方案：[Linux 下中文显示成方块的解�
 6. C-c C-d 可以用来查看函数的doc。
 7. M-. 可以查看函数的源代码。
 8. M-, 用来查看第三方库
+9. 
+
+---
+
+SSH keys 目录权限
+
+.ssh 700
+authorized_keys 600
+
+新建用户
+
+`useradd -d /home/xxx xxx`
+
+用户目录权限
+
+`chown -R xxx:users /home/xxx`
 
 ---
 
