@@ -13,6 +13,15 @@ Install [Alacarte](apt:alacarte)
 
 -----
 
+# Chrome 地址栏输入迟缓
+
+使用 ubuntu tweak tool 将字体改为英文字体 droid sans 等
+参考：
+- http://www.linuxdiyf.com/linux/14710.html
+- [linux 系统中 Chrome 地址栏输入卡顿的解决方法](http://suselinks.us/how-to-fix-slow-typing-in-chrome-addressbar-in-linux/)
+
+---
+
 # Git SSH
 
 无密码推送，使用 SSH
