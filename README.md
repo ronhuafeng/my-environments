@@ -168,3 +168,17 @@ Linux Tab键命令补全失效解决办法，查看 /etc/passwd 文件，改为 
 
 Tricks:
 1. In Ubuntu, `ctrl + ;` will call out a paste buffer (I guess), 5 items in copy-history will show up. 
+
+
+---
+
+## Remove GRUB Bootloader on MacBook
+
+https://docs.j7k6.org/remove-grub-macbook/
+
+mkdir mnt
+sudo mount -t msdos /dev/disk0s1 mnt
+cd mnt/EFI/
+sudo rm -rf <$LINUX_DISTRO_NAME>
+sudo reboot
+
