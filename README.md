@@ -176,9 +176,11 @@ Tricks:
 
 https://docs.j7k6.org/remove-grub-macbook/
 
+```bash
 mkdir mnt
 sudo mount -t msdos /dev/disk0s1 mnt
 cd mnt/EFI/
 sudo rm -rf <$LINUX_DISTRO_NAME>
 sudo reboot
+```
 
